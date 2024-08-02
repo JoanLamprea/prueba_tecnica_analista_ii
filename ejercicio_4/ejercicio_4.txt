@@ -1,0 +1,7 @@
+Ejercicio 4
+
+1. Idealmente se espera que no usen más de 5 subconsultas al usar with.
+2. No usar la combinación "in (select * ...)"
+3. No usar demasiados case when (usar regex en los casos que corresponda)
+4. Es preferible usar el group by en vez del distinct al momento de seleccionar el registro de forma única.
+5. No seleccionar columnas que no se van a usar ejecutando un "select *". Liste las columnas requeridas, nada más. 
